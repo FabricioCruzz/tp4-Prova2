@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/Fundo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+fieldset {
+    padding: 4.5em 7em;
+    margin: 10vw 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+h1 {
+    position: relative;
+    bottom: 1.5em;
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+}
+
+label {
+    font-size: 1.2em;
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+}
+
+input{
+    margin: 0.25em 0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 20vw;
+    padding: 0.25em 1.5em;
+    padding-left: 0.25em;    
+    border: 1px solid #0000ff40;
+}
+
+input:focus{
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#btnLogin {
+    margin: 1em;
+    position: relative;
+    top: 3em;
+    padding: 0.5em 4em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 750;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+}
+
+#btnLogin:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.973);
+    color: rgba(0, 0, 0, 0.719);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#msg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    font-size: 1.25em;
+    position: relative;
+    left: 4em;
+}
+
+#msg p {
+    background-color: #ff000075;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+}
